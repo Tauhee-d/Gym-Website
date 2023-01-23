@@ -1,0 +1,48 @@
+.join{
+    background-color: rgb(210, 215, 219);
+    display: flex;
+    gap: 10rem;
+}
+.left-j{
+    /* flex: 1; */
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.right-j{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    /* align-items: flex-end; */
+}
+.right-j>div{
+    background-color: rgb(217, 223, 228);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    border-radius: 4px;
+}
+input{
+    background-color: transparent;
+    border: none;
+}
+button{
+    margin-left: 20px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+button:hover{
+    color: black;
+}
+@media screen and (max-width:768px) {
+.join{
+    flex-direction: column;
+
+    }
+    .left-j{
+        font-size: 30px;
+    }
+}

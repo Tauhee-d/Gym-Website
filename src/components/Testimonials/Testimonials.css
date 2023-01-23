@@ -1,0 +1,48 @@
+.testimonials{
+    background-color: rgb(210, 215, 219);
+    display: flex;
+    gap: 1rem;
+}
+.left-t{
+    display: flex;
+    margin-top: 10%;
+    flex: 1 ;
+    gap: 2rem;
+    flex-direction: column;
+}
+.left-t>:nth-of-type(1){
+    color: orange;
+    font-size:larger;
+    margin-left: 10%;
+}
+.left-t>span{
+    font-size: 3rem;
+    margin-left: 10%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.review>span{
+    color: black;
+    display: flex;
+}
+.review>:nth-of-type(2){
+    color: orange;
+    margin-top: 5%;
+}
+.right-t{
+    display: flex;
+    margin-top: 10%;
+    flex: 1 ;
+    margin-left: 5%;
+}
+.right-t>img{
+    /* position: absolute; */
+    width: 18rem;
+    height: 20rem;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    .testimonials{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,112 @@
+.plans{
+    background-color: rgb(210, 215, 219);
+
+}
+.plans-headers{
+    display: flex;
+    gap: 2rem;
+    font-size: 3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+.plans-options{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.plans-options>div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(217, 223, 228);
+    padding: 2%;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.plans-options>div:hover{
+    background-color: orange;
+
+}
+.plans-options>.box-1>span{
+    margin: 2%;
+}
+.plans-options>.box-1>.box-11{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.plans-options>.box-1>.box-12{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.plans-options>.box-2>span{
+    margin: 2%;
+}
+.plans-options>.box-2>.box-21{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.plans-options>.box-2>.box-22{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.plans-options>.box-3>span{
+    margin: 2%;
+}
+.plans-options>.box-3>.box-31{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.plans-options>.box-3>.box-32{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    border-radius: 4px;
+    margin-top: 40px;
+    font-weight: bold;
+    border: none;
+}
+.btn1:hover{
+color: white;
+}
+
+button:hover{
+    color: orange;
+    cursor: pointer;
+}
+.box-2{
+    transform: scale(1.1);
+}
+.box-text{
+    font-size: small;
+}
+@media screen and (max-width: 768px) {
+    .plans-headers{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        justify-content: center;
+        
+    }
+    .plans-options{
+        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+    
+}
